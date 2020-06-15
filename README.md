@@ -15,7 +15,7 @@ User schema = {<br>
   "email":"johndoe@gmail.com"<br>
   "password":"johndoe254"<br>
 }<br>
-*Login example <br>
+*Login example post request with user object<br>
 {
   "email":"johndoe@gmail.com"<br>
   "password":"johndoe254"<br>
