@@ -9,3 +9,15 @@ User schema = {<br>
   email : String<br>
   password:String<br>
 }<br>
+*Sign up example, post request with user object<br>
+{<br>
+  "name":"John Doe"<br>
+  "email":"johndoe@gmail.com"<br>
+  "password":"johndoe254"<br>
+}<br>
+*Login example <br>
+{
+  "email":"johndoe@gmail.com"<br>
+  "password":"johndoe254"<br>
+}<br>
+*You should get an access token as the response after logging in
